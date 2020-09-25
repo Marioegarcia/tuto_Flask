@@ -1,0 +1,16 @@
+Metodos son:funciones que se encuentran dentro de las clases con una peculiaridad
+todos los metodos deben recibir un parametro(self) por convencion se utiliza la palabra 
+self.
+
+Hay dos maneras de crear atributos. 
+	Dentro de la clase.
+	Fuera de la clase.
+
+Metodos de Clases: Pueden ser llamados sin la necesidad de generar una instancia
+para convertir un metodo a un metodo de clase se tiene que decorar
+
+@classmethod
+def area(cls, radio):
+	return pi * radio**2
+
+por convencion se utiliza cls y hace referencia a la clase
